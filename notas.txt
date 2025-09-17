@@ -1,0 +1,7 @@
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"# Crea un directorio para Composer
+mkdir C:\composer
+
+# Mueve el archivo
+move composer.phar C:\composer
