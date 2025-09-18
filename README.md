@@ -4,5 +4,7 @@
 ```bash
 git clone <url-del-repositorio>
 cd <carpeta-del-proyecto>
-2. Instalar dependencias de PHP con Composer
+```bash
+
+##2. Instalar dependencias de PHP con Composer
 composer install
