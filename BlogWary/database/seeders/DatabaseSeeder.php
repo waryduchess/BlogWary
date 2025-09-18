@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+$this->call(UsersTableSeeder::class);
 
 class DatabaseSeeder extends Seeder
 {
@@ -20,4 +21,5 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
     }
+    
 }
