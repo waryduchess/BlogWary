@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController; // Importa el controlador correcto
+use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('inicio');
@@ -15,10 +15,9 @@ Route::get('/login', function () {
     return view('login');
 })->name('login');
 
+// Solo una ruta para registro, usando el controlador
 Route::get('/register', function () {
     return view('register');
 })->name('register');
 
-
-Route::get('/register', [UserController::class, 'create'])->name('register'); // Mostrar formulario
-Route::post('/register', [UserController::class, 'store'])->name('register.store'); // Guardar datos
+Route::post('/register', [UserController::class, 'store'])->name('register.store');
