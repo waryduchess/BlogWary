@@ -17,7 +17,7 @@
 
 ```
 ┌─────────────────────────────────────────┐
-│ • PHP >= 8.1                           │
+│ • PHP >= 8.2                           │
 │ • Composer >= 2.0                      │
 │ • Node.js >= 16.x                      │
 │ • NPM o Yarn                           │
@@ -44,8 +44,8 @@
 ### ◆ Paso 1: Clonar el Repositorio
 
 ```bash
-git clone <url-del-repositorio>
-cd <carpeta-del-proyecto>
+git clone https://github.com/waryduchess/BlogWary.git
+cd BlogWary
 ```
 
 ### ◆ Paso 2: Instalar Dependencias de PHP
